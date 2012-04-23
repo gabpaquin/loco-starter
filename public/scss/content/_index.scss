@@ -11,3 +11,10 @@
 	@extend [class*="span"];
 	@extend .span4;
 }
+
+.alert{
+  @extend .alert;
+  @extend .alert-error;
+  
+  margin-top:100px;
+}

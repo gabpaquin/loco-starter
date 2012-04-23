@@ -1,4 +1,9 @@
-.component.header {
+// Header
+$header: #ca0000 !default;
+$primary-tab: rgba(white, 0.3);
+$primary-tab-current: white;
+
+.header {
   @include fixed-width-container;
 
   margin-top: 10px;

@@ -1,0 +1,10 @@
+//navigation
+
+#logonav{
+  @extend .navbar;
+  @extend .navbar-fixed-top;
+}
+
+#logonav_inner{
+  @extend .navbar-inner;
+}

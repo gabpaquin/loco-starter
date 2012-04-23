@@ -1,5 +1,6 @@
 
-
+// import specific scss partial 
 @import "styleguide/base";
-
+@import "styleguide/layout";
+@import "styleguide/navigation";
 @import "content/index";
