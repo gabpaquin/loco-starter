@@ -1,0 +1,13 @@
+
+// Example how we can use the bootstrap library 
+// with a semantic naming system
+// each bootstrap class can be "extend" with @extend sass mixins
+
+.main_content{
+	@extend .row
+}
+
+.inside_content{
+	@extend [class*="span"];
+	@extend .span4;
+}

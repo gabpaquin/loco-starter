@@ -1,0 +1,24 @@
+// Modules 
+@import "compass/utilities";
+@import "compass/css3";
+@import "bootstrap";
+@import "bootstrap-responsive";
+
+// Fonts
+$base-font-family: "Lucida Grande", "Bitstream Vera Sans", Helvetica, Verdana, Arial, sans-serif;
+$base-font-size: 95%;
+
+@mixin text-default {
+  font: 12px "Helvetica", "Arial", sans-serif; 
+  color: #333;
+}
+
+// color
+$base-link-color: #0066cc;
+$alt-link-color: red;
+
+// Header
+$header: #ca0000 !default;
+$primary-tab: rgba(white, 0.3);
+$primary-tab-current: white;
+
